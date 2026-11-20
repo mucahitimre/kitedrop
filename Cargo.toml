@@ -1,0 +1,9 @@
+[workspace]
+resolver = "3"
+members = ["cli", "core", "desktop/src-tauri", "ffi"]
+
+[workspace.package]
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/mucahitimre/kitedrop"
+rust-version = "1.89"

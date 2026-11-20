@@ -1,0 +1,10 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["KitedropNativeModule"],
+    "appDelegateSubscribers": ["KitedropAppDelegate"]
+  },
+  "android": {
+    "modules": ["com.mucahitimre.kitedrop.bridge.KitedropNativeModule"]
+  }
+}

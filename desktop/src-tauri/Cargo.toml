@@ -1,0 +1,60 @@
+[package]
+name = "kitedrop-desktop"
+version = "0.1.0"
+description = "kitedrop tray app for macOS and Windows"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+publish = false
+
+[lib]
+name = "kitedrop_desktop"
+crate-type = ["rlib"]
+
+[[bin]]
+name = "kitedrop-desktop"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+kitedrop-core = { path = "../../core" }
+tauri = { version = "2", features = ["tray-icon", "image-png"] }
+tauri-plugin-autostart = "2"
+tauri-plugin-clipboard-manager = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-global-shortcut = "2"
+tauri-plugin-notification = "2"
+tauri-plugin-single-instance = "2"
+keyring = { version = "3", features = ["apple-native", "windows-native"] }
+qrcode = { version = "0.14", default-features = false, features = ["svg"] }
+reqwest = { version = "0.13", default-features = false, features = ["blocking", "native-tls"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+# Folders are sent as one .zip (D38); write side only, pure-Rust deflate.
+zip = { version = "9.8", default-features = false, features = ["deflate-flate2-zlib-rs", "chrono"] }
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+tracing = "0.1"
+zeroize = "1"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+# Notifications with action buttons (UNUserNotificationCenter).
+block2 = "0.6"
+objc2 = "0.6"
+objc2-foundation = { version = "0.3", features = ["NSArray", "NSDictionary", "NSObject", "NSSet", "NSString"] }
+objc2-user-notifications = "0.3"
+
+[target.'cfg(windows)'.dependencies]
+# Toasts with buttons and an activation callback (the crate the notification plugin uses).
+tauri-winrt-notification = "0.8"
+windows = { version = "0.62", features = [
+    "Win32_Foundation",
+    "Win32_Networking_NetworkListManager",
+    "Win32_System_Com",
+    "Win32_System_Power",
+] }
+
+[dev-dependencies]
+tempfile = "3"

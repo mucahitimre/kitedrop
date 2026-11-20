@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>en</string>
+  <key>CFBundleDisplayName</key>
+  <string>kitedrop</string>
+  <key>CFBundleExecutable</key>
+  <string>kitedrop-share</string>
+  <key>CFBundleIconFile</key>
+  <string>icon</string>
+  <key>CFBundleIdentifier</key>
+  <string>com.mucahitimre.kitedrop.share</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleName</key>
+  <string>kitedrop</string>
+  <key>CFBundlePackageType</key>
+  <string>XPC!</string>
+  <key>CFBundleShortVersionString</key>
+  <string>__VERSION__</string>
+  <key>CFBundleVersion</key>
+  <string>__VERSION__</string>
+  <key>LSMinimumSystemVersion</key>
+  <string>11.0</string>
+  <key>NSExtension</key>
+  <dict>
+    <key>NSExtensionPointIdentifier</key>
+    <string>com.apple.share-services</string>
+    <key>NSExtensionPrincipalClass</key>
+    <string>ShareViewController</string>
+    <key>NSExtensionAttributes</key>
+    <dict>
+      <!-- Everything: files, folders, links, text (as in Xcode's template; not accepted by the
+           App Store, fine for Developer ID distribution). The extension ignores what it cannot hand over. -->
+      <key>NSExtensionActivationRule</key>
+      <string>TRUEPREDICATE</string>
+    </dict>
+  </dict>
+</dict>
+</plist>

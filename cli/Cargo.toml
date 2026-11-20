@@ -1,0 +1,21 @@
+[package]
+name = "kitedrop-cli"
+version = "0.1.0"
+description = "Headless kitedrop device for development and process-level tests"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+publish = false
+
+[[bin]]
+name = "kitedrop"
+path = "src/main.rs"
+
+[dependencies]
+kitedrop-core = { path = "../core" }
+serde_json = "1"
+tokio = { version = "1", features = ["rt"] }
+
+[dev-dependencies]
+tempfile = "3"

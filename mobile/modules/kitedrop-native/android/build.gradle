@@ -1,0 +1,26 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'com.mucahitimre.kitedrop.bridge'
+version = '0.1.0'
+
+android {
+  namespace "com.mucahitimre.kitedrop.bridge"
+  defaultConfig {
+    versionCode 1
+    versionName "0.1.0"
+    consumerProguardFiles "proguard-rules.pro"
+  }
+  lintOptions {
+    abortOnError false
+  }
+}
+
+dependencies {
+  // UniFFI Kotlin bindings call the Rust core (src/main/jniLibs) through JNA.
+  implementation "net.java.dev.jna:jna:5.17.0@aar"
+  // UniFFI async functions become Kotlin suspend functions.
+  implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2"
+}

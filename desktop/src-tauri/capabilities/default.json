@@ -1,0 +1,12 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "kitedrop windows: core events and window control only; everything else goes through app commands.",
+  "windows": ["main", "send", "drop", "pair"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-close",
+    "core:window:allow-hide",
+    "core:window:allow-start-dragging"
+  ]
+}

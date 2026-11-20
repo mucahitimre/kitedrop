@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "kitedrop",
+    "slug": "kitedrop",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "com.mucahitimre.kitedrop",
+      "appleTeamId": "4SFTG4T5YD",
+      "supportsTablet": false,
+      "entitlements": {
+        "com.apple.security.application-groups": [
+          "group.com.mucahitimre.kitedrop"
+        ]
+      },
+      "infoPlist": {
+        "NSLocalNetworkUsageDescription": "kitedrop sends and receives files with your own devices on this network.",
+        "NSBonjourServices": [
+          "_kitedrop._tcp"
+        ],
+        "NSAppTransportSecurity": {
+          "NSAllowsLocalNetworking": true
+        },
+        "NSPhotoLibraryAddUsageDescription": "kitedrop saves photos and videos your other devices send you.",
+        "UIFileSharingEnabled": true,
+        "LSSupportsOpeningDocumentsInPlace": true
+      }
+    },
+    "android": {
+      "package": "com.mucahitimre.kitedrop",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "@bacons/apple-targets",
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "kitedrop uses the camera to scan the pairing code of your other devices.",
+          "recordAudioAndroid": false
+        }
+      ]
+    ],
+    "scheme": "kitedrop",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

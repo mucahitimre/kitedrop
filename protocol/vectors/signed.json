@@ -1,0 +1,90 @@
+{
+  "description": "Signed objects. sig = Ed25519(frame([domain, body])). Verifiers check the signature over the exact body bytes, then parse JSON. 'signed_object' is the wire form (base64url fields).",
+  "negative": [
+    {
+      "domain": "kitedrop/v1/receipt",
+      "error": "bad_signature",
+      "name": "receipt-body-tampered",
+      "signed_object": {
+        "body": "eyJ2IjoxLCJ0cmFuc2Zlcl9pZCI6IlNMV3VRelZnUGhwaHc2S0V3akFSNmciLCJzZW5kZXIiOiJydm96YkV6UXNJVmFjWG1KZ2F6UkV3IiwicmVjaXBpZW50Ijoib0podlR6NmlVYV9RWU9LSTBfdVEtQSIsInN0YXR1cyI6InN0b3JlZCIsImF0IjoxNzkwMDAwMDA0fQ",
+        "sig": "rm6KS5sVAsS1rCdsMFw4J9UKB5H6Sv3l7IaHwKYtfNTHdPw-_5ax02bAPkvNgaJSCmYD0l2fnl4MFGod7lW4BQ",
+        "signer": "oJhvTz6iUa_QYOKI0_uQ-A"
+      },
+      "signer": "A"
+    },
+    {
+      "domain": "kitedrop/v1/group",
+      "error": "bad_signature",
+      "name": "receipt-wrong-domain",
+      "signed_object": {
+        "body": "eyJ2IjoxLCJ0cmFuc2Zlcl9pZCI6IlNMV3VRelZnUGhwaHc2S0V3akFSNmciLCJzZW5kZXIiOiJydm96YkV6UXNJVmFjWG1KZ2F6UkV3IiwicmVjaXBpZW50Ijoib0podlR6NmlVYV9RWU9LSTBfdVEtQSIsInN0YXR1cyI6InN0b3JlZCIsImF0IjoxNzkwMDAwMDA1fQ",
+        "sig": "rm6KS5sVAsS1rCdsMFw4J9UKB5H6Sv3l7IaHwKYtfNTHdPw-_5ax02bAPkvNgaJSCmYD0l2fnl4MFGod7lW4BQ",
+        "signer": "oJhvTz6iUa_QYOKI0_uQ-A"
+      },
+      "signer": "A"
+    },
+    {
+      "domain": "kitedrop/v1/receipt",
+      "error": "bad_signature",
+      "name": "receipt-wrong-signer",
+      "signed_object": {
+        "body": "eyJ2IjoxLCJ0cmFuc2Zlcl9pZCI6IlNMV3VRelZnUGhwaHc2S0V3akFSNmciLCJzZW5kZXIiOiJydm96YkV6UXNJVmFjWG1KZ2F6UkV3IiwicmVjaXBpZW50Ijoib0podlR6NmlVYV9RWU9LSTBfdVEtQSIsInN0YXR1cyI6InN0b3JlZCIsImF0IjoxNzkwMDAwMDA1fQ",
+        "sig": "rm6KS5sVAsS1rCdsMFw4J9UKB5H6Sv3l7IaHwKYtfNTHdPw-_5ax02bAPkvNgaJSCmYD0l2fnl4MFGod7lW4BQ",
+        "signer": "oJhvTz6iUa_QYOKI0_uQ-A"
+      },
+      "signer": "B"
+    }
+  ],
+  "positive": [
+    {
+      "body_utf8": "{\"v\":1,\"group_id\":\"s6ospUtqUbu8KWOMxfq66w\",\"version\":1,\"members\":[{\"sig_pk\":\"v1jp_lXbAz-KtjNxdmo3e2HX7DwIKFzLOX4V9u-6KnU\",\"kem_pk\":\"wMAspHdaXNTWGRc1n1NfVL_zQ3huU2-YhViwB7N58S8\",\"name\":\"Alice's Mac\",\"platform\":\"macos\",\"added_at\":1790000000}],\"updated_at\":1790000000}",
+      "domain": "kitedrop/v1/group",
+      "signed_object": {
+        "body": "eyJ2IjoxLCJncm91cF9pZCI6InM2b3NwVXRxVWJ1OEtXT014ZnE2NnciLCJ2ZXJzaW9uIjoxLCJtZW1iZXJzIjpbeyJzaWdfcGsiOiJ2MWpwX2xYYkF6LUt0ak54ZG1vM2UySFg3RHdJS0Z6TE9YNFY5dS02S25VIiwia2VtX3BrIjoid01Bc3BIZGFYTlRXR1JjMW4xTmZWTF96UTNodVUyLVloVml3QjdONThTOCIsIm5hbWUiOiJBbGljZSdzIE1hYyIsInBsYXRmb3JtIjoibWFjb3MiLCJhZGRlZF9hdCI6MTc5MDAwMDAwMH1dLCJ1cGRhdGVkX2F0IjoxNzkwMDAwMDAwfQ",
+        "sig": "3PROPCWZc6MjXlaYfQk-Bqb8IkIzA4o9BvY7wJJG-uY4v_ECFeYhL0PbZFSoRF7ArbbaMEfpeqmOjtKCmGMABQ",
+        "signer": "oJhvTz6iUa_QYOKI0_uQ-A"
+      },
+      "signer": "A"
+    },
+    {
+      "body_utf8": "{\"v\":1,\"group_id\":\"s6ospUtqUbu8KWOMxfq66w\",\"version\":2,\"prev\":\"Kl5OcTfmquKlST0IZWVmcAzjctYJeVCwqkI1cYy3jsM\",\"members\":[{\"sig_pk\":\"v1jp_lXbAz-KtjNxdmo3e2HX7DwIKFzLOX4V9u-6KnU\",\"kem_pk\":\"wMAspHdaXNTWGRc1n1NfVL_zQ3huU2-YhViwB7N58S8\",\"name\":\"Alice's Mac\",\"platform\":\"macos\",\"added_at\":1790000000},{\"sig_pk\":\"BOZTOudK83qSB5w7XchobY_a9Oq7so3z2HXE7CvN2bk\",\"kem_pk\":\"W7WAWCGMW2c2m51CmlOMoXTFgg5aCnLBwtaXeK3PR20\",\"name\":\"Pixel\",\"platform\":\"android\",\"added_at\":1790000000}],\"updated_at\":1790000060}",
+      "domain": "kitedrop/v1/group",
+      "signed_object": {
+        "body": "eyJ2IjoxLCJncm91cF9pZCI6InM2b3NwVXRxVWJ1OEtXT014ZnE2NnciLCJ2ZXJzaW9uIjoyLCJwcmV2IjoiS2w1T2NUZm1xdUtsU1QwSVpXVm1jQXpqY3RZSmVWQ3dxa0kxY1l5M2pzTSIsIm1lbWJlcnMiOlt7InNpZ19wayI6InYxanBfbFhiQXotS3RqTnhkbW8zZTJIWDdEd0lLRnpMT1g0Vjl1LTZLblUiLCJrZW1fcGsiOiJ3TUFzcEhkYVhOVFdHUmMxbjFOZlZMX3pRM2h1VTItWWhWaXdCN041OFM4IiwibmFtZSI6IkFsaWNlJ3MgTWFjIiwicGxhdGZvcm0iOiJtYWNvcyIsImFkZGVkX2F0IjoxNzkwMDAwMDAwfSx7InNpZ19wayI6IkJPWlRPdWRLODNxU0I1dzdYY2hvYllfYTlPcTdzbzN6MkhYRTdDdk4yYmsiLCJrZW1fcGsiOiJXN1dBV0NHTVcyYzJtNTFDbWxPTW9YVEZnZzVhQ25MQnd0YVhlSzNQUjIwIiwibmFtZSI6IlBpeGVsIiwicGxhdGZvcm0iOiJhbmRyb2lkIiwiYWRkZWRfYXQiOjE3OTAwMDAwMDB9XSwidXBkYXRlZF9hdCI6MTc5MDAwMDA2MH0",
+        "sig": "heqKAi_y3jmUHCLaoHqTxLxI5U5sTgm_KCZ-Xx5u5z0_iOAX2_JMr1vcemHa4o52OL71HMgUq06FVqR1N3ZCCg",
+        "signer": "oJhvTz6iUa_QYOKI0_uQ-A"
+      },
+      "signer": "A"
+    },
+    {
+      "body_utf8": "{\"v\":1,\"device_id\":\"oJhvTz6iUa_QYOKI0_uQ-A\",\"seq\":7,\"addresses\":[\"192.168.1.20:52525\"],\"updated_at\":1790000000}",
+      "domain": "kitedrop/v1/device-record",
+      "signed_object": {
+        "body": "eyJ2IjoxLCJkZXZpY2VfaWQiOiJvSmh2VHo2aVVhX1FZT0tJMF91US1BIiwic2VxIjo3LCJhZGRyZXNzZXMiOlsiMTkyLjE2OC4xLjIwOjUyNTI1Il0sInVwZGF0ZWRfYXQiOjE3OTAwMDAwMDB9",
+        "sig": "RHeRUS9JjKjj3D5CQdY9KP__PqdHBM6RXNYk0OOxtEWyhhSGdzVgxjvkSIAFN0-I63NanxYdLG4i5m4ZZRxkDA",
+        "signer": "oJhvTz6iUa_QYOKI0_uQ-A"
+      },
+      "signer": "A"
+    },
+    {
+      "body_utf8": "{\"v\":1,\"device_id\":\"slN-wkN_PoxWnGiWSTWEJA\",\"seq\":3,\"addresses\":[],\"push_token\":\"ExponentPushToken[test-token-0000000000]\",\"updated_at\":1790000000}",
+      "domain": "kitedrop/v1/device-record",
+      "signed_object": {
+        "body": "eyJ2IjoxLCJkZXZpY2VfaWQiOiJzbE4td2tOX1BveFduR2lXU1RXRUpBIiwic2VxIjozLCJhZGRyZXNzZXMiOltdLCJwdXNoX3Rva2VuIjoiRXhwb25lbnRQdXNoVG9rZW5bdGVzdC10b2tlbi0wMDAwMDAwMDAwXSIsInVwZGF0ZWRfYXQiOjE3OTAwMDAwMDB9",
+        "sig": "5YLCYvnPHi6WVxofW1Piqd6Kj_yBm56K21XiC7wntjlpDXC0LcpXPSZ0kqq83QYYUGyGMnubp6oskCdPXQDnBw",
+        "signer": "slN-wkN_PoxWnGiWSTWEJA"
+      },
+      "signer": "C"
+    },
+    {
+      "body_utf8": "{\"v\":1,\"transfer_id\":\"SLWuQzVgPhphw6KEwjAR6g\",\"sender\":\"rvozbEzQsIVacXmJgazREw\",\"recipient\":\"oJhvTz6iUa_QYOKI0_uQ-A\",\"status\":\"stored\",\"at\":1790000005}",
+      "domain": "kitedrop/v1/receipt",
+      "signed_object": {
+        "body": "eyJ2IjoxLCJ0cmFuc2Zlcl9pZCI6IlNMV3VRelZnUGhwaHc2S0V3akFSNmciLCJzZW5kZXIiOiJydm96YkV6UXNJVmFjWG1KZ2F6UkV3IiwicmVjaXBpZW50Ijoib0podlR6NmlVYV9RWU9LSTBfdVEtQSIsInN0YXR1cyI6InN0b3JlZCIsImF0IjoxNzkwMDAwMDA1fQ",
+        "sig": "rm6KS5sVAsS1rCdsMFw4J9UKB5H6Sv3l7IaHwKYtfNTHdPw-_5ax02bAPkvNgaJSCmYD0l2fnl4MFGod7lW4BQ",
+        "signer": "oJhvTz6iUa_QYOKI0_uQ-A"
+      },
+      "signer": "A"
+    }
+  ]
+}

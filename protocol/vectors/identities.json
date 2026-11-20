@@ -1,0 +1,32 @@
+{
+  "description": "Device identities used by all other vectors. fingerprint = SHA-256(frame(['kitedrop/v1/fingerprint', sig_pk, kem_pk])); device_id = fingerprint[0..16].",
+  "devices": {
+    "A": {
+      "device_id": "a0986f4f3ea251afd060e288d3fb90f8",
+      "fingerprint": "a0986f4f3ea251afd060e288d3fb90f8f757d18d1cba17b67e16e2bca0e3ec1e",
+      "kem_pk": "c0c02ca4775a5cd4d61917359f535f54bff343786e536f988558b007b379f12f",
+      "kem_sk": "4013c62d2c6e434bafcd260a5682409183f310f4c12dfc0a808b671214984245",
+      "platform": "macos",
+      "sig_pk": "bf58e9fe55db033f8ab63371766a377b61d7ec3c08285ccb397e15f6efba2a75",
+      "sig_sk": "114b91f60db4128d17ebf2c86da0f3112c5f5a889409b9aa6c3aac180382e70a"
+    },
+    "B": {
+      "device_id": "aefa336c4cd0b0855a71798981acd113",
+      "fingerprint": "aefa336c4cd0b0855a71798981acd1130caa891899817b437a09f4b8a2647f98",
+      "kem_pk": "5bb58058218c5b67369b9d429a538ca174c5820e5a0a72c1c2d69778adcf476d",
+      "kem_sk": "107aa926b5fe20b918c504bdc0c844d202e5103bfea393d0495514bef4994974",
+      "platform": "android",
+      "sig_pk": "04e6533ae74af37a92079c3b5dc8686d8fdaf4eabbb28df3d875c4ec2bcdd9b9",
+      "sig_sk": "561467b4d417112348e98d678efb271f91e51abc25fad5b7bfbb70ab41f16183"
+    },
+    "C": {
+      "device_id": "b2537ec2437f3e8c569c689649358424",
+      "fingerprint": "b2537ec2437f3e8c569c6896493584246f55ca92f072be9474dfa9e35b270d46",
+      "kem_pk": "462d1ab5ec9569acd817537fb2e60ef20bc3f0d5edc38f85df80fa0b15bc5d3d",
+      "kem_sk": "d0e6df54be28fc0dfe6e6ae783d2f05624989618d9eac373196afe48742dea64",
+      "platform": "ios",
+      "sig_pk": "5543444f5fe7cd4efb40e7dfaae142be0fc69a9605c913dcfbee0749ed0d059e",
+      "sig_sk": "3923208e436ea246a3930f0ca52457f0a425eebcac9f5d22ca2515df45e9a976"
+    }
+  }
+}

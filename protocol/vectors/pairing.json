@@ -1,0 +1,102 @@
+{
+  "accept": {
+    "ct": "4Y0vDmQH_o0YY7tZFHGN8dUd4WlxMw7gkRv4crVv1EIFoQ6U3zRxKrKX2AUjy4o9E3I9oWW6igsOQDU2Lx9OfXgrkut9j_PqQ_BQ--SBM39f2xt-PXOtcCSYnoLps-B5pSRJkKJuMjyQ_gOj82PIiizNDZlyOpc7DAt5yP7LCOgYnhBghJvYtr1LmFoiIYPbNIodReso6ButwNqcLsp-ghE6cs7eQPXuN5kOUlu5MzgDCJDbvA-hSoH579DJRJY2AuWKc4_1UumjN8jeZpXOHlUWx4K3xnV-_3QN6dwVfGDzDx_xSdAbZKz0ZIVf1UrS1HSUd1pYb8_ouJWZnsB6_OZBWX8TvL3cF81stH5cLOxB6Wxhwmi2Dvv23vZyd2PLYxObtD0O5PRerSQVlFgIgBP4fQK50aypROwCAF7CzO7b6k8gnSlyv33EQE-APs3N8imKM3E8xETCfReWRTvU6j1VC0FETD7TT1TRy_CTceuLsSK5EmZBQklzTIUBvAtENeN_kZWcdvpzoUDkb7-yKb6F_b9chSatvCPU6HDhsZix9Zdodf9ouIFkAzGIRozm4rKyjKzATNgBQH6w7Z_OcsjwXfF4DoVFt7J3Z3esNao5-tmMDModJgX8rNN8sUl1sGdJkwqoNRlBrlI9-YlEOyiORzO3CPGw646iUaXM0-vy8GCsCFICva8pzp7rC8GRXzHXAmWdfcaBsPfEgP9BWr8EtW8FQmybjg1GTV5e6dxcNYs-MeyYMPA6H1NY3tpksg-4MtP4Xgy630Ds_UkHlTwFd4kY27-eGU5xJO_pYC4k6GXHIXUmGk2KI27giGKj6_LtzoC93DCtND1ltZEUpwY5MExmLXPX5fSSC2cdmNAp6-Sv22_yt2Jf5MsRyJAOxxqGh8uPIn3MjfBQ1SNWKh-J_4ljA9xkOXUwVira73s5h98Wu_mvzee1jw2G95ru_zHiyg9hql4eFO1NpPiJT9riDtPyb06dodZwW_3tmxNbykgadaaEbx_OFPrFPnW7d-W5TKXsVrtIeXysJNA8VA0EIv1Su25V1XLDNymfPUsJyPMUJYSrsJg-7pteQtEuqwXJHnSSDQG4VZmeWixlkJ_TkFDS1boOCDeqLhNVvOiwq4FwVRXgSgQ_dX0y8oSMelmZ4mS_NIPLfk5twLK5AaXtAkK3BhuG0yp4Iqd0oT4umYelq27Z8zT6EBecObLPYdg6Ga8BzyhiDcRgpzbwERELQUaLUG4hwZQkLQdeGQstoJBO-3kL0Qu2zNmcrht3Z9z9osaMwCNw48h_4tCwOH3I3madkXWJETsaWvxEgvDF3_ND-2xTq5sEg7unwLub7fUa95P0o25XLLySqEn4kwCcJXsT4Cu29cK-oNHhawGmNANw-uBiFAxb5b-YLHA_eujAFnZXlmT6sKoJKGPP72GnX3zFiwoigCGDgSHWUSIZvKQz7QP2a8r5ooQGzLBcHYTkbimWoqtAjEelNVuZUfDtXstpzAznaOG_e79NsR_IZp9RVYuUVnmlue7rljMnmiskpWY",
+    "enc": "RUWH2HLaxQMzihy2JZgL4xAT3HBO7mSx2yV8iq5MT0E"
+  },
+  "accept_payload": {
+    "group": {
+      "body": "eyJ2IjoxLCJncm91cF9pZCI6InM2b3NwVXRxVWJ1OEtXT014ZnE2NnciLCJ2ZXJzaW9uIjoyLCJwcmV2IjoiS2w1T2NUZm1xdUtsU1QwSVpXVm1jQXpqY3RZSmVWQ3dxa0kxY1l5M2pzTSIsIm1lbWJlcnMiOlt7InNpZ19wayI6InYxanBfbFhiQXotS3RqTnhkbW8zZTJIWDdEd0lLRnpMT1g0Vjl1LTZLblUiLCJrZW1fcGsiOiJ3TUFzcEhkYVhOVFdHUmMxbjFOZlZMX3pRM2h1VTItWWhWaXdCN041OFM4IiwibmFtZSI6IkFsaWNlJ3MgTWFjIiwicGxhdGZvcm0iOiJtYWNvcyIsImFkZGVkX2F0IjoxNzkwMDAwMDAwfSx7InNpZ19wayI6IkJPWlRPdWRLODNxU0I1dzdYY2hvYllfYTlPcTdzbzN6MkhYRTdDdk4yYmsiLCJrZW1fcGsiOiJXN1dBV0NHTVcyYzJtNTFDbWxPTW9YVEZnZzVhQ25MQnd0YVhlSzNQUjIwIiwibmFtZSI6IlBpeGVsIiwicGxhdGZvcm0iOiJhbmRyb2lkIiwiYWRkZWRfYXQiOjE3OTAwMDAwMDB9XSwidXBkYXRlZF9hdCI6MTc5MDAwMDA2MH0",
+      "sig": "heqKAi_y3jmUHCLaoHqTxLxI5U5sTgm_KCZ-Xx5u5z0_iOAX2_JMr1vcemHa4o52OL71HMgUq06FVqR1N3ZCCg",
+      "signer": "oJhvTz6iUa_QYOKI0_uQ-A"
+    },
+    "nonce": "msRFmV6n3zRXVjGidbQ8xQ",
+    "records": [
+      {
+        "body": "eyJ2IjoxLCJkZXZpY2VfaWQiOiJvSmh2VHo2aVVhX1FZT0tJMF91US1BIiwic2VxIjo3LCJhZGRyZXNzZXMiOlsiMTkyLjE2OC4xLjIwOjUyNTI1Il0sInVwZGF0ZWRfYXQiOjE3OTAwMDAwMDB9",
+        "sig": "RHeRUS9JjKjj3D5CQdY9KP__PqdHBM6RXNYk0OOxtEWyhhSGdzVgxjvkSIAFN0-I63NanxYdLG4i5m4ZZRxkDA",
+        "signer": "oJhvTz6iUa_QYOKI0_uQ-A"
+      }
+    ],
+    "v": 1
+  },
+  "accept_rng_seed": "e70788b6850deceac2ae59900cd815edb42ad6f907a9644ace233c62fdeec44b",
+  "code": "61264ce71045459179521496bc9f49fd46847d1d641eae90639cfb97329f8ece",
+  "description": "QR pairing. A (inviter) shows 'uri'; B (joiner) sends 'join' (HPKE mode_auth_psk, psk = code, psk_id = 'psk_id') and receives 'accept'. rng seeds: join uses rng('pair/join'), accept uses rng('pair/accept') (seeds listed).",
+  "inviter": "A",
+  "join": {
+    "ct": "zEFw1ltcawcCmelspn5HiZNotWI3_pqlvLgM5pMdJw8_bbrjH6W70JFZBMaLDqFYz2kpuw-GP-XLbnj0KIttRhp-9DhY70MCTEX-q3GeyeasNcqpMthCuoQihMf7MqzXtjWxCxyW5j8zpVZzQ-UlXZgslzDNUkBXgKCjO3taHGuXaUTSAEbRRX-eh3FVfW1Wfx2TSHCdAuThJKP_9A2z6qJTYK0WDXIdjJPUT89dRJpNPt-l00ieciPVXzkNM8o48a3M_n2whFVlQnh8_kOwviwhiOxSIGcyvA_2QrULuQBWO9nzqLMrWuno4oVRhDJFOmxEs6S6eeRR051rZjOkpasAzQ6rDnOOLLjwM4evMq3vQ4l5r1IxV_33gZRIUTEh3fy7SUyBu-5-",
+    "enc": "Mx0QSdX5_hsqGLoUsFkaO_TvxUhZkVRat1o272B3tFc",
+    "joiner_kem_pk": "W7WAWCGMW2c2m51CmlOMoXTFgg5aCnLBwtaXeK3PR20",
+    "psk_id": "hCg_Wh91-SkOyJM8qH8zKg"
+  },
+  "join_rng_seed": "ca5bc029a1f4debad54dba0353aef838cad812c15e4c1761e47e4d51544a94b0",
+  "joiner": "B",
+  "joiner_name": "Pixel",
+  "joiner_platform": "android",
+  "negative": [
+    {
+      "code": "f81cd328358e21b4cc90ef71592f7af6ed6c44b3b1a1a5ce8c7ea16fd8a435b8",
+      "error": "decrypt_failed",
+      "name": "join-wrong-code",
+      "step": "open_join",
+      "why": "inviter holds a different code; psk_id does not match"
+    },
+    {
+      "accept": {
+        "ct": "4I0vDmQH_o0YY7tZFHGN8dUd4WlxMw7gkRv4crVv1EIFoQ6U3zRxKrKX2AUjy4o9E3I9oWW6igsOQDU2Lx9OfXgrkut9j_PqQ_BQ--SBM39f2xt-PXOtcCSYnoLps-B5pSRJkKJuMjyQ_gOj82PIiizNDZlyOpc7DAt5yP7LCOgYnhBghJvYtr1LmFoiIYPbNIodReso6ButwNqcLsp-ghE6cs7eQPXuN5kOUlu5MzgDCJDbvA-hSoH579DJRJY2AuWKc4_1UumjN8jeZpXOHlUWx4K3xnV-_3QN6dwVfGDzDx_xSdAbZKz0ZIVf1UrS1HSUd1pYb8_ouJWZnsB6_OZBWX8TvL3cF81stH5cLOxB6Wxhwmi2Dvv23vZyd2PLYxObtD0O5PRerSQVlFgIgBP4fQK50aypROwCAF7CzO7b6k8gnSlyv33EQE-APs3N8imKM3E8xETCfReWRTvU6j1VC0FETD7TT1TRy_CTceuLsSK5EmZBQklzTIUBvAtENeN_kZWcdvpzoUDkb7-yKb6F_b9chSatvCPU6HDhsZix9Zdodf9ouIFkAzGIRozm4rKyjKzATNgBQH6w7Z_OcsjwXfF4DoVFt7J3Z3esNao5-tmMDModJgX8rNN8sUl1sGdJkwqoNRlBrlI9-YlEOyiORzO3CPGw646iUaXM0-vy8GCsCFICva8pzp7rC8GRXzHXAmWdfcaBsPfEgP9BWr8EtW8FQmybjg1GTV5e6dxcNYs-MeyYMPA6H1NY3tpksg-4MtP4Xgy630Ds_UkHlTwFd4kY27-eGU5xJO_pYC4k6GXHIXUmGk2KI27giGKj6_LtzoC93DCtND1ltZEUpwY5MExmLXPX5fSSC2cdmNAp6-Sv22_yt2Jf5MsRyJAOxxqGh8uPIn3MjfBQ1SNWKh-J_4ljA9xkOXUwVira73s5h98Wu_mvzee1jw2G95ru_zHiyg9hql4eFO1NpPiJT9riDtPyb06dodZwW_3tmxNbykgadaaEbx_OFPrFPnW7d-W5TKXsVrtIeXysJNA8VA0EIv1Su25V1XLDNymfPUsJyPMUJYSrsJg-7pteQtEuqwXJHnSSDQG4VZmeWixlkJ_TkFDS1boOCDeqLhNVvOiwq4FwVRXgSgQ_dX0y8oSMelmZ4mS_NIPLfk5twLK5AaXtAkK3BhuG0yp4Iqd0oT4umYelq27Z8zT6EBecObLPYdg6Ga8BzyhiDcRgpzbwERELQUaLUG4hwZQkLQdeGQstoJBO-3kL0Qu2zNmcrht3Z9z9osaMwCNw48h_4tCwOH3I3madkXWJETsaWvxEgvDF3_ND-2xTq5sEg7unwLub7fUa95P0o25XLLySqEn4kwCcJXsT4Cu29cK-oNHhawGmNANw-uBiFAxb5b-YLHA_eujAFnZXlmT6sKoJKGPP72GnX3zFiwoigCGDgSHWUSIZvKQz7QP2a8r5ooQGzLBcHYTkbimWoqtAjEelNVuZUfDtXstpzAznaOG_e79NsR_IZp9RVYuUVnmlue7rljMnmiskpWY",
+        "enc": "RUWH2HLaxQMzihy2JZgL4xAT3HBO7mSx2yV8iq5MT0E"
+      },
+      "error": "decrypt_failed",
+      "name": "accept-tampered",
+      "step": "open_accept",
+      "why": "one ciphertext bit flipped"
+    }
+  ],
+  "nonce": "9ac445995ea7df34575631a275b43cc5",
+  "psk_id": "84283f5a1f75f9290ec8933ca87f332a",
+  "reverse": {
+    "accept": {
+      "ct": "ULAR6C2GIdDc0LQmW6vlGfO34rb4jcX-SWZAEvJUYtEJCmTQiTf0A9Bw4y08MhgKf_kfgphwGWNij-9a_52wk3rbSdUdgYl6QD-rINJ9_i-o5EzjtvaHYTHXTNyMw9E0DVgA8LxrqqBYicMiLXsfru5ExSy2WRCA9iKV8vFpefMiH8TD3S3JHzHAh-ukQmbTW0EeTyJZSf_2HEFw3otG4tWVI6MTMdaXZTetHRaI3H9p69tO7xzad9lFczwZ0FRQhn3ED0iwhCx1nb6fHqsUKRlZi10vSjiObzQUIvTPau9Z-QwLLQXcjgKta4nf_GMLOT6YQW7MrEvQmZa_d8Ta3C5wcD97h9S1Tmgj3xTmLcKWO6XY0cgrnE9Be7jbcjIi6L1ruVjVZejVKnH9EAOLfP735xHkoCPZLdQeWRax75Ncl97RltxMnC8sV9oVWRTytKZALAY6isbGCRjZIxj6Z_q_l9oDkv6OdLZvSpsKywOnvVglsR2B618EanlnnxAjKNsWkP6uDV1LH8NVJOVSfMglEvJeJg7AnLWV01AwZi63LG327vuaVjaV5Tuz4IM_JqjzXl070cmgkxE3ePsdhSfeFqkK3E2QGHRhmMIT34LoN0G4NQ2h3P9072m1WD8mpCiUKJY0CZskhZn7Cbsld0vkdG7Bw926XszUzunIOnThvhIxSaQU0WG-TBT4j0lEw76Rpb3UJKIQSagHFsUz2fxLYt-CO40ukxKy94YkzcXrQ9dPO1dRWUWurkJ9O1uGht1FWI52y8teIC1uwXAwYMyhnlg75j3DnIFwMYxAcwtjIiF2dMOPCWq-5xPE5CSSErpgyAdCOux2O_6HzBRfRvYqI6XiDu92xfH6RII6yA4fpXAB7Dch8gkXbzaXCs0iADLUCLvfp_8MgUsCrDicYfdD5KgiCXXh0Lx9BfbIjyKPX8hgvB2loRoMAzHb1CNUWFpTrdpCIGCEK0VsQUIHJXODiylHnvYaiSWhg6OZtQrZ1oUI-lfyVZSqGI9sonJxe79M8b6znCvLdtyOmYbyP6yS1f6-XSZsFKSyFagrs4L5_m2Da5N_x9N84Q2a2l2rlaIaapdN-JKdTJjkT9c_GOdFAQZ6wwbUJgEJ-pEvmZ7QsekIvsq4k0gWEblKMO7YCG6yxmTfarj2V2w7aWN78f-ZoW0k7FfsmNpKiwyoUu7gf8OSBtqPXciJ0w_DpGHnUUxS-bcTZH4pmAzf-exUTgUy5zOHHlD2Xbg4GzmLBFdeiOkh8pdShOquVUETG1z2qqdUmGCSp9_ftLaVbzdHxyrN60cRSeQbUWzx37gd0UgGS7usH9HY0fnLneLnwogUZ0LHv3YM5iIEBbsw_gWtWnS1oRNfpcqYSTU6xjpxeJBxxNqSJ1OHCo_dVlRRwcCABZsQ15iPAgaLb77RWitJ-hUYJtXGoJsJraQB7M0Ana4wtF-XErgis3RLHEjMR2xD7jsAfugmbe9Uup9GP-Ke1PdB6Lg0c0POCIKWUIzKyRNviqee8cssBjRxtg7DPuqDhPTwAzE",
+      "enc": "sWRwK4t-HPiooTcgKRHPFaiAC6geEc4qkiDcCPjQ5k4",
+      "psk_id": "oBXrWoU4MrONa3Nxx4qJMw"
+    },
+    "accept_payload": {
+      "group": {
+        "body": "eyJ2IjoxLCJncm91cF9pZCI6InM2b3NwVXRxVWJ1OEtXT014ZnE2NnciLCJ2ZXJzaW9uIjoyLCJwcmV2IjoiS2w1T2NUZm1xdUtsU1QwSVpXVm1jQXpqY3RZSmVWQ3dxa0kxY1l5M2pzTSIsIm1lbWJlcnMiOlt7InNpZ19wayI6InYxanBfbFhiQXotS3RqTnhkbW8zZTJIWDdEd0lLRnpMT1g0Vjl1LTZLblUiLCJrZW1fcGsiOiJ3TUFzcEhkYVhOVFdHUmMxbjFOZlZMX3pRM2h1VTItWWhWaXdCN041OFM4IiwibmFtZSI6IkFsaWNlJ3MgTWFjIiwicGxhdGZvcm0iOiJtYWNvcyIsImFkZGVkX2F0IjoxNzkwMDAwMDAwfSx7InNpZ19wayI6IkJPWlRPdWRLODNxU0I1dzdYY2hvYllfYTlPcTdzbzN6MkhYRTdDdk4yYmsiLCJrZW1fcGsiOiJXN1dBV0NHTVcyYzJtNTFDbWxPTW9YVEZnZzVhQ25MQnd0YVhlSzNQUjIwIiwibmFtZSI6IlBpeGVsIiwicGxhdGZvcm0iOiJhbmRyb2lkIiwiYWRkZWRfYXQiOjE3OTAwMDAwMDB9XSwidXBkYXRlZF9hdCI6MTc5MDAwMDA2MH0",
+        "sig": "heqKAi_y3jmUHCLaoHqTxLxI5U5sTgm_KCZ-Xx5u5z0_iOAX2_JMr1vcemHa4o52OL71HMgUq06FVqR1N3ZCCg",
+        "signer": "oJhvTz6iUa_QYOKI0_uQ-A"
+      },
+      "nonce": "Wt4YpHuJLlL9bIAa2JkU2w",
+      "records": [
+        {
+          "body": "eyJ2IjoxLCJkZXZpY2VfaWQiOiJvSmh2VHo2aVVhX1FZT0tJMF91US1BIiwic2VxIjo3LCJhZGRyZXNzZXMiOlsiMTkyLjE2OC4xLjIwOjUyNTI1Il0sInVwZGF0ZWRfYXQiOjE3OTAwMDAwMDB9",
+          "sig": "RHeRUS9JjKjj3D5CQdY9KP__PqdHBM6RXNYk0OOxtEWyhhSGdzVgxjvkSIAFN0-I63NanxYdLG4i5m4ZZRxkDA",
+          "signer": "oJhvTz6iUa_QYOKI0_uQ-A"
+        }
+      ],
+      "v": 1
+    },
+    "code": "dde781b3f79eee217aab38cb30f6eab4fa7570787280b32701e018f44c690e32",
+    "description": "Reverse QR: B (joiner) shows 'uri' (r=1, f = B's fingerprint). A probes B, posts 'offer' to /v1/pair/offer (domains kitedrop/v1/pair-offer, kitedrop/v1/pair-offer-sig, info binds B's fingerprint); B answers 'join' sealed to A (as in the forward flow, info binds A's fingerprint); A posts 'accept' to /v1/pair/accept. rng seeds: rng('pair/rev-offer'), rng('pair/rev-join'), rng('pair/rev-accept').",
+    "join": {
+      "ct": "RdF6CghhWxMap7zozVHYqDWVglt-NgtKMfjBWh78SYMeSH7NYf-2DfUovzr3domUG0gm9jG7Ie42RwQMVy8YPa1YsG02BIJm-usBOctEGYHjojlnLT8tveXTKWH664xNkEdHWQL-AVhtouYLLSGp7EesT-mopnthpPxcf9Ml7Uoo0bZk-P53yMDqDQRPzVA5dvSh0w3gZB33acT_LdaLcJn7PgLFT5m0vsjldwR8QjmYgqRqNrKYinmrRPUBMX3dXcmJKhzI4C5T2cvvbqa66E2Fyz5d1fnl0CXkWiUm8nVRv66pHGKygyyndx-mQEUp2i3QisKsvTu9XWEM4yNkCIklhsq-SzEWM4VEaEh5TVeDJg3EdTT0MtQjaP70QERzkaJ59HawxIM",
+      "enc": "XYvkwfoG9ruX_sV97hnZ2MhJwYmbnuVlsgEMBb57RT8",
+      "joiner_kem_pk": "W7WAWCGMW2c2m51CmlOMoXTFgg5aCnLBwtaXeK3PR20",
+      "psk_id": "oBXrWoU4MrONa3Nxx4qJMw"
+    },
+    "joiner_name": "Desk",
+    "joiner_platform": "windows",
+    "member_name": "Alice's Mac",
+    "member_platform": "macos",
+    "nonce": "5ade18a47b892e52fd6c801ad89914db",
+    "offer": {
+      "ct": "qwHgzis2GvVZn1iBA4kcbXkqk0gImEVDNWDLwHg3jSdrnLeNgru_Ro9l5Af2U9s3-rX-dx6_soFfq2d0iwLEsHshXKbBmKyV-tswjGVP-nOrmRJCKtB3Bt3xsMiU7y791ldalOJO53fdY8cKfm0yiFu_qsPnMbUAOztG56jxLKc76-Df3b9qvImzZBFHoWGJDIiRXLP1B9zb_2jguUHa5E5brZ7JEJpNT0UqgTiRqGHSfuixTLpUhpw7PSNuIAGMWrDVZXjrvDkVk9o_dimKTKoYHfEcThe7mF5_Szxkgo3NAHN2O7ra3uD2VRwWJHhviI0VuZ3b48I_p3d-yxgzupFOraSDcbfvypDyIa5Nrw8-1M7za7Tto2mmEZuNUNN6mqx0f_1PDSehQPs6uA",
+      "enc": "4NAT1Y1j2uK4eacWproTid7ZsqT7RgyomHnaPiMCyRU",
+      "joiner_kem_pk": "wMAspHdaXNTWGRc1n1NfVL_zQ3huU2-YhViwB7N58S8",
+      "psk_id": "oBXrWoU4MrONa3Nxx4qJMw"
+    },
+    "offer_nonce": "672c834c69ee29e04d1daa6952801bc0",
+    "uri": "kitedrop://pair?v=1&c=3eeBs_ee7iF6qzjLMPbqtPp1cHhygLMnAeAY9ExpDjI&f=rvozbEzQsIVacXmJgazREwyqiRiZgXtDegn0uKJkf5g&a=192.168.1.30:52525&r=1"
+  },
+  "uri": "kitedrop://pair?v=1&c=YSZM5xBFRZF5UhSWvJ9J_UaEfR1kHq6QY5z7lzKfjs4&f=oJhvTz6iUa_QYOKI0_uQ-PdX0Y0cuhe2fhbivKDj7B4&a=192.168.1.20:52525,[fd00::20]:52525"
+}

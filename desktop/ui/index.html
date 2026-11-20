@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kitedrop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="view-main" class="view" hidden>
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo" aria-hidden="true"></span>
+        <div>
+          <h1>kitedrop</h1>
+          <p id="me" class="muted small"></p>
+        </div>
+      </div>
+      <button id="add-device" class="btn primary">Add device</button>
+    </header>
+
+    <section id="issues" class="notice" hidden></section>
+
+    <section class="block">
+      <h2>Devices</h2>
+      <ul id="devices" class="cards"></ul>
+      <p class="hint">Drop files anywhere on this window to send them.</p>
+    </section>
+
+    <section class="block">
+      <h2>Sent</h2>
+      <ul id="transfers" class="rows"></ul>
+      <p id="no-transfers" class="empty">Nothing sent yet. Press <kbd id="shortcut"></kbd> to send what you copied.</p>
+    </section>
+
+    <section class="block">
+      <h2>Received <button id="open-downloads" class="btn link">Open folder</button></h2>
+      <ul id="received" class="rows"></ul>
+      <p id="no-received" class="empty">Files land in Downloads/kitedrop; text and links go straight to the clipboard.</p>
+    </section>
+    <div id="dropping" class="dropping" hidden>Drop to send</div>
+  </main>
+
+  <main id="view-send" class="view compact" hidden>
+    <p class="eyebrow">Send</p>
+    <p id="pending-label" class="pending"></p>
+    <div id="send-progress" class="send-progress" hidden>
+      <div class="progress"><div id="send-bar" class="bar"></div></div>
+      <p id="send-progress-text" class="muted small"></p>
+    </div>
+    <ul id="targets" class="tiles"></ul>
+    <p id="send-error" class="error" hidden></p>
+  </main>
+
+  <main id="view-drop" class="view drop-view" hidden>
+    <div class="dropzone">
+      <span class="logo big" aria-hidden="true"></span>
+      <span>Drop files here</span>
+    </div>
+  </main>
+
+  <main id="view-pair" class="view compact" hidden>
+    <div class="segmented">
+      <button id="tab-normal" class="seg active">Invite a device</button>
+      <button id="tab-reverse" class="seg">Join a group</button>
+    </div>
+    <p id="pair-help" class="muted"></p>
+    <div class="qr-box">
+      <img id="qr" alt="Pairing code">
+      <div class="qr-meta">
+        <span>Valid <strong id="countdown">60</strong> s · one use</span>
+        <button id="new-code" class="btn link">New code</button>
+      </div>
+    </div>
+    <button id="copy-link" class="btn wide">Copy link for another computer</button>
+    <div class="divider"><span>or</span></div>
+    <p class="muted small">Paste a link copied on another computer</p>
+    <div class="row">
+      <input id="link" placeholder="kitedrop://pair?…" autocomplete="off" spellcheck="false">
+      <button id="use-link" class="btn primary">Pair</button>
+    </div>
+    <p id="pair-status" class="ok" hidden></p>
+    <p id="pair-error" class="error" hidden></p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

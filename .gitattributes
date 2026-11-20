@@ -1,0 +1,3 @@
+# Test vectors are compared byte for byte (core/tests/vectors.rs): keep LF on every platform.
+protocol/vectors/*.json text eol=lf
+*.sh text eol=lf
