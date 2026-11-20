@@ -151,3 +151,15 @@ with cargo-xwin (Microsoft license accepted by the owner); Windows test later.
 - iPhone reinstalled with the new UI, icon and progress; its share sheet redesigned and now sends every shared
   item (D40; three files confirmed by the owner). Android APK built, waiting for the phone on USB.
 - Releases `v0.1.0-dev.9` (draft, superseded) and `v0.1.0-dev.10` built by the release workflow.
+
+## 2026-11-20 — Phase 5 done: public release
+
+- The repository was recreated with one clean commit (AI-assistant files and personal names removed; the
+  development history stays in a private archive) and made public with `v0.1.0`.
+- GitHub settings: private vulnerability reporting, secret scanning with push protection, Dependabot alerts and
+  security updates, read-only Actions token by default, rulesets that protect `main` and `v*` tags from deletion
+  and force pushes.
+- Dependabot's 19 first-day alerts: 18 fixed in build tooling, 1 Linux-only dismissed (D41).
+- `v0.1.1`: macOS app notarized by Apple (`scripts/release-mac.sh`); a downloaded DMG is accepted by Gatekeeper as
+  "Notarized Developer ID". Both phones run the current build.
+- Open: iPhone push (Expo / APNs), Apple and Android signing secrets for CI, TestFlight, Phase 4 test round.
