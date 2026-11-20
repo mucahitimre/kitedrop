@@ -20,6 +20,20 @@ iOS through TestFlight, for the owner only.
    and creates a **draft** release with `SHA256SUMS.txt`. Review it, then publish it on GitHub.
 4. A rebuild of an existing tag: *Actions → release → Run workflow* with the tag.
 
+### macOS from a Mac (until the Apple secrets are in GitHub)
+
+Without the Apple secrets the workflow's macOS build is only ad-hoc signed. Build the macOS files on a Mac with
+the Developer ID certificate and a notarytool profile in the login keychain, then replace the two macOS files of
+the draft release (and their lines in `SHA256SUMS.txt`):
+
+```sh
+APPLE_SIGNING_IDENTITY="Developer ID Application: NAME (TEAMID)" NOTARY_PROFILE=<profile> scripts/release-mac.sh
+```
+
+It builds a universal app with the share extension, notarizes and staples the app and the `.dmg`, and prints
+Gatekeeper's verdict and the checksums. The profile is created once with
+`xcrun notarytool store-credentials <profile> --apple-id <apple id> --team-id <team id>`.
+
 ### Secrets (repository settings → Secrets and variables → Actions)
 
 Every secret is optional; the build runs without them and the job log warns about what is missing.

@@ -96,12 +96,18 @@ export function Button({
       style={({ pressed }) => [
         styles.button,
         { borderColor: border, backgroundColor: bg },
-        flex && { flex: 1 },
+        // Buttons that share a row get less padding, so three fit on narrow phones.
+        flex && { flex: 1, paddingHorizontal: 6, gap: 4 },
         (pressed || disabled) && { opacity: disabled ? 0.45 : 0.7 },
       ]}
     >
       {icon && <Icon name={icon} size={16} color={fg} />}
-      <Text style={[styles.buttonText, { color: fg }]} numberOfLines={1}>
+      <Text
+        style={[styles.buttonText, { color: fg }]}
+        numberOfLines={1}
+        adjustsFontSizeToFit
+        minimumFontScale={0.8}
+      >
         {title}
       </Text>
     </Pressable>
