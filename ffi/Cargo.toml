@@ -1,6 +1,6 @@
 [package]
 name = "kitedrop-ffi"
-version = "0.1.0"
+version = "0.1.1"
 description = "UniFFI bindings (Swift, Kotlin) for kitedrop-core"
 publish = false
 edition.workspace = true

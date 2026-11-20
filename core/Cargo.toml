@@ -1,6 +1,6 @@
 [package]
 name = "kitedrop-core"
-version = "0.1.0"
+version = "0.1.1"
 description = "Protocol, crypto and transport core of kitedrop"
 edition.workspace = true
 license.workspace = true

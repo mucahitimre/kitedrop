@@ -2587,7 +2587,7 @@ dependencies = [
 
 [[package]]
 name = "kitedrop-cli"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "kitedrop-core",
  "serde_json",
@@ -2597,7 +2597,7 @@ dependencies = [
 
 [[package]]
 name = "kitedrop-core"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "axum",
  "base64 0.23.1",
@@ -2626,7 +2626,7 @@ dependencies = [
 
 [[package]]
 name = "kitedrop-desktop"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "block2",
  "chrono",
@@ -2657,7 +2657,7 @@ dependencies = [
 
 [[package]]
 name = "kitedrop-ffi"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "kitedrop-core",
  "qrcode",

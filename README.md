@@ -97,9 +97,8 @@ over your Wi-Fi, end-to-end encrypted, and each one ends with a clear result.
 
 Downloads are on the [Releases](https://github.com/mucahitimre/kitedrop/releases) page.
 
-- **macOS:** open the `.dmg`, drag kitedrop to Applications, open it. The app is signed with a Developer ID but
-  not notarized yet, so the first open is blocked: go to System Settings → Privacy & Security, choose
-  **Open Anyway** next to the kitedrop message, and confirm. Allow **Local Network** when macOS asks
+- **macOS:** open the `.dmg`, drag kitedrop to Applications, open it (signed with a Developer ID and notarized
+  by Apple from 0.1.1). Allow **Local Network** when macOS asks
   (System Settings → Privacy & Security → Local Network → kitedrop). kitedrop lives in the menu bar and starts
   at login. If kitedrop is missing from the **Share** menu, choose *Edit Extensions…* at the bottom of that menu
   and turn kitedrop on.

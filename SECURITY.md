@@ -63,8 +63,7 @@ of paired devices is the trust boundary.
   send it empty notifications; the token is shared only inside the group. Without internet no push is sent and
   the item still waits. (The iPhone app does not register for push yet; this applies once it does.)
 - **Unsigned or self-signed builds.** The Windows installer is not code-signed (SmartScreen warns). The macOS
-  app is signed with a Developer ID and notarized only when the release secrets are configured
-  ([docs/release.md](docs/release.md)). Android APKs built without a release keystore carry the Expo template's
+  app is signed with a Developer ID and notarized by Apple (from 0.1.1; [docs/release.md](docs/release.md)). Android APKs built without a release keystore carry the Expo template's
   debug signature, which is public: a different APK with the same signature could be installed over kitedrop.
   Install updates only from this repository's Releases page.
 - **Local network exposure.** Desktop and Android listen on TCP 52525–52534 on the LAN. Every endpoint needs a
