@@ -455,3 +455,15 @@ Windows yet — Phase 5 adds a Windows job so this class of bug is caught before
   envelope and background upload, one after the other.
 - The card no longer says an offline target receives the item "when it is back": whether the background upload is
   retried after it fails is not verified.
+
+## D41 — Dependency alerts at the public launch (2026-11-20)
+
+- Dependabot reported 19 alerts on the first push of the public repository. All npm ones came from build and lint
+  tooling, none from code in the apps: `@bacons/apple-targets` (Xcode project editing at prebuild) pulled
+  `@expo/plist` 0.0.18 → `@xmldom/xmldom` 0.7, `uuid` 8 and `glob` 10/13; eslint plugins pulled `minimatch` 9/10.
+- Fixed with npm `overrides` in `mobile/package.json`: `@bacons/xcode` uses `@expo/plist` ^0.5.4 (xmldom 0.8.15)
+  and `uuid` ^11.1.1; `glob` ^14.0.2; `minimatch` 7–11.0.0 → ^11.0.1. Checked: `npm ci`, `npm audit` 0
+  vulnerabilities, typecheck, lint, prebuild of both platforms (the share extension target is still added), and
+  release builds installed on both phones.
+- Rust `glib` (GTK, unsound iterator): only in the Linux dependency tree of Tauri (`cargo tree -i glib` is empty
+  for macOS, Windows, Android and iOS); no Linux build is shipped. Dismissed as "vulnerable code not used".
